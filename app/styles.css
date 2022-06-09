@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.header {
+  position: sticky;
+  border: 5px solid red;
+  text-align: center;
+  font-size: 32px;
+  top: 0;
+  background-color: #cecece;
+}
+#main {
+  border: 5px solid rgb(196, 110, 110);
+  text-align: center;
+}
+.Landing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.videoRepro {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+video {
+  width: auto;
+}
